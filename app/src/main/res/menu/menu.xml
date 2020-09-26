@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <group >
+
+        <item android:id="@+id/home"
+            android:title="Newsletter"
+            android:icon="@drawable/home"/>
+
+        <item android:id="@+id/work"
+            android:title="View List"
+            android:icon="@drawable/work"/>
+
+        <item android:id="@+id/school"
+            android:title="Make Event"
+            android:icon="@drawable/school"/>
+
+        <item android:id="@+id/timeline"
+            android:title="History"
+            android:icon="@drawable/timeline"/>
+
+    </group>
+
+    <item android:title="Controls">
+
+
+        <menu>
+            <item android:id="@+id/setting"
+                android:title="About"
+                android:icon="@drawable/setting"/>
+
+            <item android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/logout"/>
+
+        </menu>
+
+    </item>
+</menu>
